@@ -26,7 +26,7 @@ const contactBook = {
 };
   
   // Ange en grupp
-  let groupToShow = "vänner"
+  let groupToShow = "vänner";
 
 
 
@@ -38,9 +38,9 @@ function showContacts(contactBook, groupToShow) { // Rör ej denna kod
    for (contact of contactBook.contacts){
     if (contact.group === groupToShow){
       return 'Namn: ${contact.name}, Telefon: ${contact.phone}';  
-    },
-   },
-  };
+    }
+   }
+  }
 
     
     
