@@ -1,5 +1,5 @@
 // Importera funktionen vi vill testa
-const { showContacts } = require('./src/script.js');
+const { showContacts } = require("./src/script.js");
 
 describe("Test av showContacts-funktionen", () => {
   test("Kontrollera att rätt kontakt returneras vid grupp 'familj'", () => {
@@ -36,7 +36,6 @@ describe("Test av showContacts-funktionen", () => {
 
     // Kör funktionen
     const result = showContacts(contactBook, groupToShow);
-
 
     expect(result).toBe("Namn: Ahmed Ali, Telefon: 070-1234567");
   });
